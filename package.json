@@ -9,7 +9,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "serve": "serve -s dist",
-    "start": "vite preview", 
+    "start": "serve -s dist", 
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
@@ -25,7 +25,8 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.11.2",
     "reactflow": "^11.7.2",
-    "socket.io-client": "^3.0.0"
+    "socket.io-client": "^3.0.0",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
@@ -39,5 +40,8 @@
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "vite": "^4.3.2"
+  }
+  "optionalDepencencies":{
+    "@rollup/rollup-linux-x64-gnu": "4.9.5"
   }
 }
