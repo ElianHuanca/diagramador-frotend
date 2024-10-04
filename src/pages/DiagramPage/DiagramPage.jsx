@@ -23,7 +23,7 @@ import { Link, useParams } from 'react-router-dom';
 import { useFetchProject } from '../../hooks/useFetchProject';
 import { updateProject } from '../../helpers/updateProject';
 import { SocketContext } from '../../context/SocketContext';
-//import '../../utils/fileUtils'
+import { exportDiagram, importDiagram } from '../../utils/fileUtils'; // Importar las funciones
 
 
 
